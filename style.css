@@ -80,3 +80,44 @@ button {
 .result {
     font-size: 1.8rem;
 }
+
+@media(max-width:950px) {
+    .converterbox {
+        flex-direction: column;
+    }
+    .container {
+        font-size: 1.2rem;
+        gap: 0.5rem;
+    }
+    .container-in {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.2rem;
+    }
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .converter {
+        width: 90%;
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+    select {
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+    .temp {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    button {
+        padding: 0.6rem;
+        font-size: 1.2rem;
+    }
+    input {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+}
